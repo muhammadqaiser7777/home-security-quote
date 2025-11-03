@@ -2,7 +2,7 @@
 .policies-container {
   width: 100%;
   padding: 2rem 0;
-  background: #246A73;
+  background: linear-gradient(135deg, var(--primary-teal) 0%, var(--medium-teal) 50%, var(--accent-blue) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,9 +66,9 @@
 
 /* Hover Effects */
 .tab-btn:hover {
-  background: #368F8B; /* Accent */
+  background: var(--medium-teal); /* Accent */
   color: #ffffff;
-  border-color: #368F8B;
+  border-color: var(--medium-teal);
   transform: translateY(-3px);
   box-shadow: 0 4px 12px rgba(54, 143, 139, 0.3);
 }

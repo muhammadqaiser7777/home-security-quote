@@ -2,6 +2,7 @@
 html, body {
   height: 100vh;
   margin: 0;
+  background-color: #f8f9fa;
 }
 
 /* Flexbox wrapper */
@@ -10,9 +11,32 @@ html, body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  background: linear-gradient(135deg, #f8f9fa 0%, #ecf0f1 100%);
 }
 
 /* Grow the content so footer pushes down */
 .content {
   flex: 1;
+}
+
+/* Security theme typography */
+h1, h2, h3, h4, h5, h6 {
+  color: #2c3e50;
+  font-weight: 700;
+}
+
+p {
+  color: #34495e;
+  line-height: 1.6;
+}
+
+/* Security-themed links */
+a {
+  color: #3498db;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #2980b9;
 }

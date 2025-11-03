@@ -9,4 +9,55 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+/* Home Security Theme Colors */
+:root {
+  --primary-teal: #246A73;
+  --medium-teal: #368F8B;
+  --accent-blue: #4a9eff;
+  --primary-dark: #1a252f;
+  --warning-red: #e74c3c;
+  --light-gray: #ecf0f1;
+  --medium-gray: #bdc3c7;
+  --dark-gray: #34495e;
+  --security-gold: #f39c12;
+  --blue: #1100ff;
+  --violet: #4681ee;
+}
+
+/* Security-themed button styles */
+.btn-security {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--accent-blue) 100%);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.btn-security:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+}
+
+.btn-security-outline {
+  background: transparent;
+  color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  padding: 10px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-security-outline:hover {
+  background: var(--primary-blue);
+  color: white;
 }

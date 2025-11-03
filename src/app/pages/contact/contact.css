@@ -6,9 +6,7 @@
   position: relative;
   height: 70vh;
   min-height: 500px;
-  background: url('/assets/images/form-bg.jpeg') no-repeat center center;
-  background-size: cover;
-  background-attachment: fixed;
+  background: linear-gradient(135deg, var(--primary-teal) 0%, var(--medium-teal) 50%, var(--accent-blue) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
